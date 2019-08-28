@@ -6,7 +6,7 @@
 
 DigitalIn b_ok(p21);
 DigitalIn b_esc(p22);
-DigitalOut auth_ok(p17);
+DigitalOut auth_ok(p18);
 ST7735_TFT TFT(p5, p6, p7, p8, p25, p24,"TFT"); // create a global TFT object for LCD Display
 Serial debug(USBTX,USBRX);
 SDFileSystem sd(p11, p12, p13, p14, "sd");
